@@ -1,0 +1,36 @@
+# IDE (PyCharm / VSCode)
+.idea/
+*.iml
+.vscode/
+
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Computer Vision & ML Artifacts (YOLO, OpenCV)
+*.pt
+*.pth
+*.onnx
+*.mp4
+runs/
+datasets/
+
+# Databases & Environment Variables
+.env
+*.env.local
+*.db
+*.sqlite
+*.sqlite3
+
+# Android / Kotlin Client (якщо клієнт буде тут)
+.gradle/
+build/
+local.properties
+
+# OS generated files
+.DS_Store
+Thumbs.db
